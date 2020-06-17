@@ -14,7 +14,7 @@
 module SymbolUtilities
   module Global
     # TODO: make this parameterized
-    CATAPULT_NETWORK_IDENTIFIER = 'public-test'
+    CATAPULT_NETWORK_IDENTIFIER = 'mijin'
 
     module CertInfo
       HASH = {

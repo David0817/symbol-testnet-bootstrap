@@ -18,7 +18,7 @@ module SymbolUtilities
     private
 
     def write_peer_config(peers_config)
-      ::File.open("#{self.target_config_dir}/#{PEER_FILENAME}", 'w') { |f| f << peers_config}
+     # ::File.open("#{self.target_config_dir}/#{PEER_FILENAME}", 'w') { |f| f << peers_config}
     end
     
   end
